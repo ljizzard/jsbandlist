@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Think of a topic</title>
+  <link rel="stylesheet" type="text/css" href="./gubbins.css" />
+  <script src="./app.js"></script>
+</head>
+<body>
+
+  <h1>Random Bands and Gubbins</h1>
+  <form>
+    <div class="form-element">
+      <label for="band">Band</label>
+      <input type="text" id="band" />
+    </div>
+
+    <div class="form-element">
+      <label for="album">Album</label>
+      <input type="text" id="album" />
+    </div>
+
+<div class="form-element">
+  <legend>Genre</legend>
+  <fieldset>
+    <label for="rock">Rock</label>
+    <input type="radio" name="genre" id="rock" value="Rock"/>
+
+    <label for="metal">Metal</label>
+    <input type="radio" name="genre" id="metal" value="Metal"/>
+
+
+    <label for="new-wave">New Wave</label>
+    <input type="radio" name="genre" id="new-wave" value="New-Wave"/>
+
+
+    <label for="chamber-pop">Chamber Pop</label>
+    <input type="radio" name="genre" id="chamber-pop" value="Chamber-Pop"/>
+
+    <label for="contempory-jazz">Contempory Jazz</label>
+    <input type="radio" name="genre" id="cont-jazz" value="Comtempory-Jazz"/>
+  </fieldset>
+</div>
+
+  <div class="form-element">
+    <input type="submit" value="Add to List" />
+  </div>
+</form>
+
+<ul id="list">
+</ul>
+
+</body>
+</html>
