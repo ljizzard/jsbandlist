@@ -1,28 +1,48 @@
 body {
-  background-color: pink;
+  background-color: #F7F7FF;
   font-family: arial;
+  border-left: 5px solid deeppink;
+  padding-left: 2.5em
 }
-
 ul#list {
-
+  list-style: square;
+  margin: auto;
 }
 
 
 li{
+  width: fit-content;
+  padding: 0.5em;
+  margin: 2em;
+  border-radius: 2px;
+  margin: auto;
 
 }
 
+label::after, legend::after{
+  content: ;
+}
 
+span.album::before {
+  content: ' == ';
+}
+
+span.genre::before {
+  content: ' == ';
+}
+
+div.centre_contents {
+  text-align: ;
+}
 form {
-  background-colour: green;
+  width: fit-content;
+  padding: 1em;
+  text-align: center;
+  margin: auto;
 
 }
 div.form-element {
-
-}
-
-
-fieldset {
-
+  padding: 0.5em;
+  margin:0.25em;
 
 }

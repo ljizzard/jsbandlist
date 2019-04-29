@@ -1,8 +1,8 @@
 const seedData = [
-{band:'Barry Adamson', album:'As above so below', genre:'Contemporary Jazz'},
-{band:'Metallica', album:'St Anger', genre:'Metal'},
-{band:'Blondie', album:'Plastic Letters', genre:'New Wave'},
-{band:'Tori Amos', album:'Little Earthquakes', genre:'Chamber Pop'},
+{band:  'Barry Adamson', album: 'As above so below', genre: 'Contemporary Jazz'},
+{band:  'Metallica', album: 'St Anger', genre: 'Metal'},
+{band:  'Blondie', album: 'Plastic Letters', genre: 'New Wave'},
+{band:  'Tori Amos', album: 'Little Earthquakes', genre: 'Chamber Pop'},
 ];
 
 const formSubmit = function(eventt) {
